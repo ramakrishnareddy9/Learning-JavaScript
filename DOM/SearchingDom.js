@@ -15,3 +15,7 @@ cardTitile[0].style.color = "red"
 cardTitile[1].style.color = "blue"
 cardTitile[2].style.color = "orange"
 console.log(cardTitile)
+
+console.log(document.getElementsByTagName("a"))
+console.log(document.querySelectorAll(".card-title a"))
+console.log(document.getElementsByName("search"))
