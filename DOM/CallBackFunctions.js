@@ -9,7 +9,7 @@ console.log("your name is " + a + "and age is " + b);
 console.log("start");
 setTimeout(() => {
     console.log("Asyncronous");
-});
+},5000);
 console.log("end");
 
 // Call back : passing function into a function as argument
